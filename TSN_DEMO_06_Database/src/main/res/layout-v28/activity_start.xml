@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="152dp"
+            android:orientation="horizontal"
+            android:paddingTop="50sp"
+            >
+
+            <TextView
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:text="Курсовая работа"
+                android:textAlignment="center"
+                android:textColor="#C168CF"
+                android:textFontWeight="700"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal"
+            android:paddingLeft="10sp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Цель курсовой работы:"
+                android:textSize="22sp"
+                android:textColor="@color/cardview_dark_background"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="101dp"
+            android:orientation="horizontal"
+            android:paddingLeft="10sp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="обучение студентов современным технологиям разработки
+программного обеспечения в Android Studio для платформы Android."
+                android:textSize="18sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal"
+            android:paddingLeft="10sp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Описание:"
+                android:textSize="22sp"
+                android:textColor="@color/cardview_dark_background"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="156dp"
+            android:orientation="horizontal"
+            android:paddingLeft="10sp">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:text="В данной курсовой работе можно просмотреть список пылесосов, взятых из базы данных. В списке можно просмотреть название, цена и ссылка на товар. Предусмотрены сортировки по названию и цене"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingTop="75dp">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Посмотреть базу"
+                android:backgroundTint="#7B3C81"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:height="80sp"
+                android:onClick="next"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
